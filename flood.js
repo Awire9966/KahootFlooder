@@ -1,20 +1,20 @@
-console.log("Preparing...")
+
 //requires
 readline = require('readline-sync');
-console.log("Required readline-sync")
+
 const Kahoot = require("kahoot.js-updated");
-console.log("Required kahoot.js-updated")
+
 var words = require('an-array-of-english-words')
-console.log("Required an-array-of-english-words")
+
 const request = require('request');
-console.log("Required request")
+
 var random = require('random-name')
-console.log("Required random-name")
+
 var setTitle = require('console-title');
-console.log("Required console-title")
+
 setTitle('Kahoot flooder');
 var beep = require('beepbeep')
-console.log("Required beepbeep")
+
 
 //stuff
 function getRandomInt(min, max) {
